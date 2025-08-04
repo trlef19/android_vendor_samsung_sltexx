@@ -174,9 +174,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltexx/proprietary/lib/hw/camera.universal5430.so:system/lib/hw/camera.universal5430.so \
     vendor/samsung/sltexx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/sltexx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/sltexx/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
-    vendor/samsung/sltexx/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
-    vendor/samsung/sltexx/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
+    #vendor/samsung/sltexx/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
+    #vendor/samsung/sltexx/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
+    #vendor/samsung/sltexx/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/sltexx/proprietary/vendor/firmware/setfile_2p2_12m.bin:system/vendor/firmware/setfile_2p2_12m.bin \
     vendor/samsung/sltexx/proprietary/vendor/firmware/setfile_6b2.bin:system/vendor/firmware/setfile_6b2.bin \
     vendor/samsung/sltexx/proprietary/vendor/firmware/setfile_8b1.bin:system/vendor/firmware/setfile_8b1.bin \
@@ -196,7 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltexx/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/sltexx/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/sltexx/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/sltexx/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    #vendor/samsung/sltexx/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/samsung/sltexx/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/sltexx/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/sltexx/proprietary/bin/cs:system/bin/cs \
