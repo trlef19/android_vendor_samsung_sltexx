@@ -174,7 +174,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sltexx/proprietary/lib/hw/camera.universal5430.so:system/lib/hw/camera.universal5430.so \
     vendor/samsung/sltexx/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/sltexx/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/sltexx/proprietary/vendor/bin/mcDriverDaemon:system/vendor/bin/mcDriverDaemon \
+    vendor/samsung/sltexx/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/sltexx/proprietary/vendor/lib/libMcClient.so:system/vendor/lib/libMcClient.so \
     vendor/samsung/sltexx/proprietary/vendor/lib/libMcRegistry.so:system/vendor/lib/libMcRegistry.so \
     vendor/samsung/sltexx/proprietary/vendor/firmware/setfile_2p2_12m.bin:system/vendor/firmware/setfile_2p2_12m.bin \
